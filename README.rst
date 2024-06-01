@@ -1,5 +1,6 @@
+============================
 DEV Fancy Console string generator
-===============================
+============================
 
 Stylized Python console, a project made for fun.
 
