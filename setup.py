@@ -7,7 +7,7 @@ def readme():
 setup(
     name='dev_fancy_console',
     version='0.1',
-    description='Stylized Python console, a project made for fun.',
+    description='Stylized Python console, a project made for fun',
     author="SKoprek",
     long_description=readme(),
     packages=find_packages(),
