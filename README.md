@@ -32,5 +32,3 @@ FancyMessageSegmented([FancyMessage()])
 ```example_4()```
 
 ![Alt text](/img/img_3.png "Example segmented")
-
-
