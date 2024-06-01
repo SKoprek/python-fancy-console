@@ -4,7 +4,7 @@ try:
     import pypandoc
     long_description = pypandoc.convert_file('README.md', 'rst')
 except(IOError, ImportError):
-    long_description = open('README.md').read()
+    long_description = open('README_PIPY.md').read()
 
 setup(
     name='dev_fancy_console',
