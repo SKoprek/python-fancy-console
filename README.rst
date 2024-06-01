@@ -19,21 +19,21 @@ Code example for Fancy Message Segmented (Default values)
     FancyMessageSegmented([FancyMessage()])
 
 Included Colors, Background Colors, and Styles
-----------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
 
     example_1()
 
 Example Simple Message
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
 
     example_2()
 
 Example Simple Segmented Message
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
 

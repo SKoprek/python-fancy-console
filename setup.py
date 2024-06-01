@@ -9,8 +9,8 @@ setup(
     version='0.0.1',
     description='Stylized Python console, a project made for fun',
     author="SKoprek",
-    long_description=long_description,
-    long_description_content_type='text/markdown',
+    long_description=readme,
+    long_description_content_type='text/x-rst',
     packages=find_packages(),
     url='https://github.com/SKoprek/python-fancy-console',
     entry_points={
