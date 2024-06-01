@@ -1,6 +1,6 @@
 
 def example_1() -> None:
-    from fancy_console.presets import FancyColors, FancyUtilities, FancyBackgroundColors, FancyStyles
+    from dev_fancy_console.presets import FancyColors, FancyUtilities, FancyBackgroundColors, FancyStyles
     print("[[EXAMPLE_1:]]")
     print('-->FancyColors<--')
     print("(Regular Colors):")

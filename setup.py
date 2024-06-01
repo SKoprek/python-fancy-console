@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(
-    name='fancy_console',
+    name='dev_fancy_console',
     version='1.0',
     description='Stylized Python console, a project made for fun.',
     author="SKoprek",
@@ -14,9 +14,9 @@ setup(
     url='https://github.com/SKoprek/python-fancy-console',
     entry_points={
         "console_scripts": [
-            "fancy_example_1 = fancy_console.examples:example_1",
-            "fancy_example_2 = fancy_console.examples:example_2",
-            "fancy_example_3 = fancy_console.examples:example_3",
+            "fancy_example_1 = dev_fancy_console.examples:example_1",
+            "fancy_example_2 = dev_fancy_console.examples:example_2",
+            "fancy_example_3 = dev_fancy_console.examples:example_3",
             "fancy_example_4 = fancy_console.examples:example_4",
         ]
     }

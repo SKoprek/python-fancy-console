@@ -1,7 +1,7 @@
 
 def example_2() -> None:
-    from fancy_console import FancyMessage
-    from fancy_console.presets import FancyColors, FancyBackgroundColors, FancyStyles
+    from dev_fancy_console import FancyMessage
+    from dev_fancy_console.presets import FancyColors, FancyBackgroundColors, FancyStyles
     print("[[EXAMPLE_2:DEFAULT MESSAGE COMPOSE FUNCTION EXAMPLES]]")
     print(FancyMessage("DEFAULT MESSAGE").compose_message)
     print(FancyMessage("SIMPLE MESSAGE COMPOSE", color=FancyColors.BLACK,

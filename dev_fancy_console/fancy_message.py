@@ -1,6 +1,6 @@
 from typing import List
 
-from fancy_console.presets import FancyColors, FancyBackgroundColors, FancyStyles, FancyUtilities
+from dev_fancy_console.presets import FancyColors, FancyBackgroundColors, FancyStyles, FancyUtilities
 
 
 class FancyMessage:
