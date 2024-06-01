@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import pathlib
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -10,7 +9,6 @@ setup(
     description='Stylized Python console, a project made for fun',
     author="SKoprek",
     long_description=readme,
-    long_description_content_type='text/x-rst',
     packages=find_packages(),
     url='https://github.com/SKoprek/python-fancy-console',
     entry_points={
