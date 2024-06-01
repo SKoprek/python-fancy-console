@@ -8,8 +8,7 @@ Code example for Fancy Message.
 
 
 .. code:: python
-        FancyMessage(message="", color=FancyColors.EMPTY, background=FancyBackgroundColors.EMPTY_BG,
-                        styles=[FancyStyles.EMPTY_STYLE], utility=FancyUtilities.EMPTY)
+        FancyMessage(message="", color=FancyColors.EMPTY, background=FancyBackgroundColors.EMPTY_BG, styles=[FancyStyles.EMPTY_STYLE], utility=FancyUtilities.EMPTY)
 
 
 Code example for Fancy Message Segmented. (Default values)
