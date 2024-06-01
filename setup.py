@@ -17,7 +17,7 @@ setup(
             "fancy_example_1 = dev_fancy_console.examples:example_1",
             "fancy_example_2 = dev_fancy_console.examples:example_2",
             "fancy_example_3 = dev_fancy_console.examples:example_3",
-            "fancy_example_4 = fancy_console.examples:example_4",
+            "fancy_example_4 = dev_fancy_console.examples:example_4",
         ]
     }
 )
