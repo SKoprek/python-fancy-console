@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(
     name='dev_fancy_console',
     version='0.1',
-    description='Stylized Python console, a project made for fun!',
+    description='Stylized Python console, a project made for fun.',
     author="SKoprek",
     packages=find_packages(),
     url='https://github.com/SKoprek/python-fancy-console',
