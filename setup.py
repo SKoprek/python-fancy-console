@@ -1,15 +1,10 @@
 from setuptools import setup, find_packages
 
-def readme():
-    with open("README.md") as f:
-        return f.read()
-
 setup(
     name='dev_fancy_console',
     version='0.1',
     description='Stylized Python console, a project made for fun',
     author="SKoprek",
-    long_description=readme(),
     packages=find_packages(),
     url='https://github.com/SKoprek/python-fancy-console',
     entry_points={
