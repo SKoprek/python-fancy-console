@@ -27,6 +27,10 @@ jobs:
       run: |
         python setup.py sdist bdist_wheel
 
+    - name: Check package description
+      run: |
+        python -m twine check dist/* --verbose
+
     - name: Publish package to PyPI
       env:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
