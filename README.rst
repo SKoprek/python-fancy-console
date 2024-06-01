@@ -1,42 +1,39 @@
 DEV Fancy Console string generator
-================ 
+===============================
 
 Stylized Python console, a project made for fun.
 
-Code example for Fancy Message.
------------------
-
-
-.. code:: python
-        FancyMessage(message="", color=FancyColors.EMPTY, background=FancyBackgroundColors.EMPTY_BG, styles=[FancyStyles.EMPTY_STYLE], utility=FancyUtilities.EMPTY)
-
-
-Code example for Fancy Message Segmented. (Default values)
------------------
-
+Code example for Fancy Message
+------------------------------
 
 .. code:: python
-        FancyMessageSegmented([FancyMessage()])
 
+    FancyMessage(message="", color=FancyColors.EMPTY, background=FancyBackgroundColors.EMPTY_BG, styles=[FancyStyles.EMPTY_STYLE], utility=FancyUtilities.EMPTY)
 
-Included Colors, Background colord, and styles.
-----
-
-
-.. code:: python
-        example_1()
-
-Example Simple message
-----
-
+Code example for Fancy Message Segmented (Default values)
+---------------------------------------------------------
 
 .. code:: python
-        example_2()
 
+    FancyMessageSegmented([FancyMessage()])
 
-Example Simple segmented message
-----
-
+Included Colors, Background Colors, and Styles
+----------------------------------------------
 
 .. code:: python
-        example_4()
+
+    example_1()
+
+Example Simple Message
+----------------------
+
+.. code:: python
+
+    example_2()
+
+Example Simple Segmented Message
+--------------------------------
+
+.. code:: python
+
+    example_4()
