@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-import pathlib
+from os.path import join, abspath, dirname
 
 def read(*pathcomponents):
     """Read the contents of a file located relative to setup.py"""
